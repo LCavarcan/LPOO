@@ -7,27 +7,10 @@ public class Turma {
         ArrayList<CorpoDocente> professor = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
 
-        Alunos lucas = new Alunos("Lucas", 211042242);
-        Alunos bruno = new Alunos("Bruno", 211042951);
-        Alunos gustavo = new Alunos("Gustavo", 211042009);
-        Alunos daphne = new Alunos("Daphne", 211042571);
-        Alunos luiza = new Alunos("Luiza", 211042511);
-
         int n;
         int m=0;
         String name;
         int ra;
-
-        aluno.add(lucas);
-        aluno.add(bruno);
-        aluno.add(gustavo);
-        aluno.add(daphne);
-        aluno.add(luiza);
-
-        for(int i=0;i<aluno.size();i++) {
-            System.out.println("Nome: " + aluno.get(i).getNome());
-            System.out.println("Ra: " + aluno.get(i).getId());
-        }
 
         do {
             System.out.println("1 - Adicionar aluno\n2 - Remover aluno pelo nome\n3 - Remover aluno pelo ra\n4 - Buscar aluno\n5 - Adicionar professor\n6 - Remover professor\n7 - Buscar professor\n8 - Printar alunos\n9 - Printar professores\n0 - Sair");
